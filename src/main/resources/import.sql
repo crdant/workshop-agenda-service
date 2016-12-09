@@ -37,10 +37,8 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('client-slide-load-balancing', 'scs', 'Spring Cloud Netflix - Client Side Load Balancing', '', '87-spring-cloud-netflix-client-side-load-balancing.pdf', 'labs/87-spring-cloud-netflix-client-side-load-balancing-lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('circuit-breakers', 'scs', 'Spring Cloud Netflix - Circuit Breakers', '', '88-spring-cloud-netflix-circuit-breakers.pdf', 'labs/88-spring-cloud-netflix-circuit-breakers-lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('circuit-breaker-metric-aggregation', 'scs', 'Spring Cloud Netflix - Circuit Breaker Metric Aggregation', '', '89-spring-cloud-netflix-circuit-breaker-metric-aggregation.pdf', 'labs/89-spring-cloud-netflix-circuit-breaker-metric-aggregation-lab.html');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('springcloud-dataflow', 'scs', 'Spring Cloud Data Flow', '', 'springcloud_dataflow.pdf', '');
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('90-more-information', 'more', 'Course Introduction', '','90-more-information.pdf','');
-
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session1-cne', 'pcf101', 'Welcome to the Cloud Native Enterprise', '','Session_1_Cloud_Native_Enterprise.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-session2-arch', 'pcf101', 'Pivotal Cloud Foundry Architecture and Containers', '','Session_2_Architecture.pdf','');
@@ -54,3 +52,18 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab3', 'pcf101', 'Lab 3 - Operating your Application', '','','labs/pcf101/lab3/lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab4', 'pcf101', 'Lab 4 - Monitoring your Application', '','','labs/pcf101/lab4/lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab5', 'pcf101', 'Lab 5 - Deploying a .NET Application', '','','labs/pcf101/lab5/lab.html');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('a-new-way-of-working', 'transformation', 'A New Way of Working', '', 'a-new-way-of-working.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('an-open-ecosystem-of-services', 'transformation', 'An Open Ecosystem of Services', '', 'an-open-ecosystem-of-services.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('twelve-factor-apps', 'transformation', '12 Factor Applications', '', 'twelve-factor-apps.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('twelve-factor-apps-and-beyond', 'transformation', '12 Factor Applications (and Beyond)', '', 'twelve-factor-apps-and-beyond.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('legacy-migration-to-cloud', 'transformation', 'Legacy Migration to the Cloud', '', 'legacy-migration-to-cloud', '');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('data-microservices', 'scdf', 'Data Microservices', '', 'data-microservices.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('springcloud-dataflow', 'scdf', 'Spring Cloud Data Flow', '', 'springcloud_dataflow.pdf', '');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('80a-cs-spring-boot-condensed', 'dellemc', 'Spring Boot', '','80a-cs-spring-boot-condensed.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('85a-spring-cloud-condensed', 'dellemc', 'Spring Cloud Services', '','85a-cs-spring-cloud-condensed.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('coming-soon', 'dellemc', 'Spring Cloud Services', '','coming-soon.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('steeltoe-and-dotnet', 'dellemc', '.NET and Steeltoe', '','dotnet-and-steeltoe.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('dell-it-cloud-foundry', 'dellemc', 'Leveraging Dell IT Cloud Foundry', '','dell-it-cloud-foundry.pdf', '');
