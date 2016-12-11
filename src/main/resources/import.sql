@@ -69,3 +69,4 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('steeltoe-and-dotnet', 'dellemc', '.NET and Steeltoe', '','dotnet-and-steeltoe.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('dell-it-cloud-foundry', 'dellemc', 'Leveraging Dell IT Cloud Foundry', '','dell-it-cloud-foundry.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('a-new-way-of-working-dell', 'dell-emc', 'A New Way of Working', '', 'a-new-way-of-working-dell.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('new-applications', 'transformation', 'Legacy Migration to the Cloud', '', 'new-applications.pdf', '');
