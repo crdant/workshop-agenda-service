@@ -57,8 +57,9 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('an-open-ecosystem-of-services', 'transformation', 'An Open Ecosystem of Services', '', 'an-open-ecosystem-of-services.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('twelve-factor-apps', 'transformation', '12 Factor Applications', '', 'twelve-factor-apps.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('twelve-factor-apps-and-beyond', 'transformation', '12 Factor Applications (and Beyond)', '', 'twelve-factor-apps-and-beyond.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('legacy-migration-to-cloud', 'transformation', 'Legacy Migration to the Cloud', '', 'legacy-migration-to-cloud', '');
-
+insert into content (courseID, section, title, description, slideURL, labURL) values ('design-for-failure', 'transformation', 'Design for Failure', '', 'design-for-failure.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('legacy-migration-to-cloud', 'transformation', 'Legacy Migration to the Cloud', '', 'legacy-migration-to-cloud.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('cloud-native-architecture', 'transformation', 'Cloud Native Architecutre', '', 'cloud-native-architecture.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('data-microservices', 'scdf', 'Data Microservices', '', 'data-microservices.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('springcloud-dataflow', 'scdf', 'Spring Cloud Data Flow', '', 'springcloud_dataflow.pdf', '');
 
@@ -67,3 +68,4 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('coming-soon', 'dellemc', 'Spring Cloud Services', '','coming-soon.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('steeltoe-and-dotnet', 'dellemc', '.NET and Steeltoe', '','dotnet-and-steeltoe.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('dell-it-cloud-foundry', 'dellemc', 'Leveraging Dell IT Cloud Foundry', '','dell-it-cloud-foundry.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('a-new-way-of-working-dell', 'dell-emc', 'A New Way of Working', '', 'a-new-way-of-working-dell.pdf', '');
