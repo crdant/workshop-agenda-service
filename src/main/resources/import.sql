@@ -79,3 +79,5 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('monitoring-logging', 'pcf-general', 'Moniting and Logging', '', 'monitoring-logging.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('security-topics', 'pcf-general', 'Security Topics', '', 'security.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('patching-upgrading', 'pcf-general', 'Patching and Upgrading', '', 'patching-upgrading.pdf', '');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('distributed-scale', 'webster', 'Distributed Scale', '', 'coming-soon.pdf', '');
