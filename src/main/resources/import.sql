@@ -65,6 +65,7 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('data-microservices', 'scdf', 'Data Microservices', '', 'data-microservices.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('springcloud-dataflow', 'scdf', 'Spring Cloud Data Flow', '', 'springcloud_dataflow.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('intro-streams', 'scdf', 'Sources, Sinks, and Streams', '', '04-IntroductionToStreams.pdf', '');
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('80a-cs-spring-boot-condensed', 'dellemc', 'Spring Boot', '','80a-cs-spring-boot-condensed.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('85a-spring-cloud-condensed', 'dellemc', 'Spring Cloud Services', '','85a-cs-spring-cloud-condensed.pdf', '');
@@ -74,4 +75,7 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('cloudforge-overview', 'liberty-mutual', 'CloudForge', '', 'coming-soon.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('sample-application', 'liberty-mutual', 'A Sample Cloud-Native Application', '', 'coming-soon.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('deploying-cloudforge', 'liberty-mutual', 'Deploying with CloudForge', '', 'coming-soon.pdf', '');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('monitoring-logging', 'pcf-general', 'Moniting and Logging', '', 'monitoring-logging.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('security-topics', 'pcf-general', 'Security Topics', '', 'security.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('patching-upgrading', 'pcf-general', 'Patching and Upgrading', '', 'patching-upgrading.pdf', '');
