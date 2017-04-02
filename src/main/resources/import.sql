@@ -54,3 +54,26 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab3', 'pcf101', 'Lab 3 - Operating your Application', '','','labs/pcf101/lab3/lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab4', 'pcf101', 'Lab 4 - Monitoring your Application', '','','labs/pcf101/lab4/lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab5', 'pcf101', 'Lab 5 - Deploying a .NET Application', '','','labs/pcf101/lab5/lab.html');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('a-new-way-of-working', 'transformation', 'A New Way of Working', '', 'a-new-way-of-working.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('an-open-ecosystem-of-services', 'transformation', 'An Open Ecosystem of Services', '', 'an-open-ecosystem-of-services.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('twelve-factor-apps', 'transformation', '12 Factor Applications', '', 'twelve-factor-apps.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('twelve-factor-apps-and-beyond', 'transformation', '12 Factor Applications (and Beyond)', '', 'twelve-factor-apps-and-beyond.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('design-for-failure', 'transformation', 'Design for Failure', '', 'design-for-failure.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('api-first', 'transformation', 'API First', '', 'api-first.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('legacy-migration-to-cloud', 'transformation', 'Legacy Migration to the Cloud', '', 'legacy-migration-to-cloud.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('cloud-native-architecture', 'transformation', 'Cloud Native Architecutre', '', 'cloud-native-architecture.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('new-applications', 'transformation', 'Legacy Migration to the Cloud', '', 'new-applications.pdf', '');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('data-microservices', 'scdf', 'Data Microservices', '', 'data-microservices.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('springcloud-dataflow', 'scdf', 'Spring Cloud Data Flow', '', 'springcloud_dataflow.pdf', '');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('80a-cs-spring-boot-condensed', 'dellemc', 'Spring Boot', '','80a-cs-spring-boot-condensed.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('85a-spring-cloud-condensed', 'dellemc', 'Spring Cloud Services', '','85a-cs-spring-cloud-condensed.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('steeltoe-and-dotnet', 'dellemc', '.NET and Steeltoe', '','dotnet-and-steeltoe.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('dell-it-cloud-foundry', 'dellemc', 'Leveraging Dell IT Cloud Foundry', '','dell-it-cloud-foundry.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('a-new-way-of-working-dell', 'dell-emc', 'A New Way of Working', '', 'a-new-way-of-working-dell.pdf', '');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('cloudforge-overview', 'liberty-mutual', 'CloudForge', '', 'coming-soon.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('sample-application', 'liberty-mutual', 'A Sample Cloud-Native Application', '', 'coming-soon.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('deploying-cloudforge', 'liberty-mutual', 'Deploying with CloudForge', '', 'coming-soon.pdf', '');
