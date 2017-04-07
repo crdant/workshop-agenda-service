@@ -68,12 +68,37 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('data-microservices', 'scdf', 'Data Microservices', '', 'data-microservices.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('springcloud-dataflow', 'scdf', 'Spring Cloud Data Flow', '', 'springcloud_dataflow.pdf', '');
 
-insert into content (courseID, section, title, description, slideURL, labURL) values ('80a-cs-spring-boot-condensed', 'dellemc', 'Spring Boot', '','80a-cs-spring-boot-condensed.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('85a-spring-cloud-condensed', 'dellemc', 'Spring Cloud Services', '','85a-cs-spring-cloud-condensed.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('steeltoe-and-dotnet', 'dellemc', '.NET and Steeltoe', '','dotnet-and-steeltoe.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('dell-it-cloud-foundry', 'dellemc', 'Leveraging Dell IT Cloud Foundry', '','dell-it-cloud-foundry.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('a-new-way-of-working-dell', 'dell-emc', 'A New Way of Working', '', 'a-new-way-of-working-dell.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('00-agenda-and-logistics', 'scdf', 'Agenda and Logistics', '', 'scdf/00-AgendaAndLogistics.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('02-architecture', 'scdf', 'Architecture', '', 'scdf/02-Architecture.pdf', 'scdf/labs/installation-cf.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('03-pcf-primer', 'scdf', 'PCF Primer', '', 'scdf/03-PCF-Primer.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('04-introduction-streams', 'scdf', 'Introduction to Streams', '', 'scdf/04-IntroductionToStreams.pdf', 'scdf/labs/introduction-to-streams.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('05-advanced-streams', 'scdf', 'Advanced Streams', '', 'scdf/05-AdvancedStreams.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('06-boot-primer', 'scdf', 'Spring Boot Primer', '', 'scdf/06-SpringBootPrimer.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('07-introduction-jobs', 'scdf', 'Introduction to Jobs', '', 'scdf/07-IntroductionToJobs', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('07-spring-cloud-stream', 'scdf', 'Spring Cloud Stream', '', 'scdf/07-SpringCloudStream', 'scdf/labs/spring-cloud-stream-local.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('08-customizing', 'scdf', 'Customizing Job Modules', '', 'scdf/08-CustomizingJobModules.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('09-advanced-jobs', 'scdf', 'Advanced Jobs', '', 'scdf/09-AdvancedJobs.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('09-spring-cloud-tasks', 'scdf', 'Tasks', '', 'scdf/09-SpringCloudTasks.pdf', 'scdf/labs/spring-cloud-custom-task-local.html ');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('10-distributed-mode', 'scdf', 'Distributed Mode', '', 'scdf/10-DistributedMode.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('11-high-availability', 'scdf', 'High Availability', '', 'scdf/11-High-Availability.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('12-management-monitoring', 'scdf', 'Management and Monitoring', '', 'scdf/12-ManagementAndMonitoring.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('15-analytics', 'scdf', 'Analytics', '', 'scdf/15-Analytics.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('21-ha-appendix', 'scdf', 'High Availability (Appendix)', '', 'scdf/21-HighAvailability-Appendix.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('60-migration', 'scdf', 'Migration', '', 'scdf/60-Migration.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('data-microservices-pcf', 'scdf', 'Data Microservices', '', 'data-microservices-pcf.pdf', '');
 
-insert into content (courseID, section, title, description, slideURL, labURL) values ('cloudforge-overview', 'liberty-mutual', 'CloudForge', '', 'coming-soon.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('sample-application', 'liberty-mutual', 'A Sample Cloud-Native Application', '', 'coming-soon.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('deploying-cloudforge', 'liberty-mutual', 'Deploying with CloudForge', '', 'coming-soon.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('monitoring-logging', 'pcf-general', 'Moniting and Logging', '', 'monitoring-logging.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('security-topics', 'pcf-general', 'Security Topics', '', 'security.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('patching-upgrading', 'pcf-general', 'Patching and Upgrading', '', 'patching-upgrading.pdf', '');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('a-new-way-of-working', 'transformation', 'A New Way of Working', '', 'a-new-way-of-working.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('what-is-cloud-native', 'transformation', 'What is a Cloud Native Application?', '', 'what-is-cloud-native.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('becoming-cloud-native', 'transformation', 'Becoming Cloud Native', '', 'becoming-cloud-native.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('an-open-ecosystem-of-services', 'transformation', 'An Open Ecosystem of Services', '', 'an-open-ecosystem-of-services.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('twelve-factor-apps', 'transformation', '12 Factor Applications', '', 'twelve-factor-apps.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('twelve-factor-apps-and-beyond', 'transformation', '12 Factor Applications (and Beyond)', '', 'twelve-factor-apps-and-beyond.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('design-for-failure', 'transformation', 'Design for Failure', '', 'design-for-failure.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('api-first', 'transformation', 'API First', '', 'api-first.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('legacy-migration-to-cloud', 'transformation', 'Legacy Migration to the Cloud', '', 'legacy-migration-to-cloud.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('cloud-native-architecture', 'transformation', 'Cloud Native Architecutre', '', 'cloud-native-architecture.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('new-applications', 'transformation', 'Legacy Migration to the Cloud', '', 'new-applications.pdf', '');
