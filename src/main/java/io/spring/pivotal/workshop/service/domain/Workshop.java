@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "workshop")
 @Component
 public class Workshop {
-	
+
 	private String title;
 	private String description;
 	private String date;
@@ -49,7 +49,7 @@ public class Workshop {
 	public void setCustomerLogo(String customerLogo) {
 		this.customerLogo = customerLogo;
 	}
-	
+
 	public String getContentURL() {
 		return contentURL;
 	}
@@ -81,7 +81,7 @@ public class Workshop {
 	public void setSessions(List<Session> sessions) {
 		this.sessions = sessions;
 	}
-	
+
 	public static class Resource {
 
 		private String title;
@@ -218,17 +218,20 @@ public class Workshop {
 			private String description;
 			private String slideURL;
 			private String labURL;
+			private String videoURL;
 
 			public Topic() {
 			}
 
-			public Topic(String id, String title, String description, String slideURL, String labURL) {
+			public Topic(String id, String title, String description, String slideURL, String labURL, String videoURL) {
 				super();
 				this.id = id;
 				this.title = title;
 				this.description = description;
 				this.slideURL = slideURL;
 				this.labURL = labURL;
+				this.videoURL = videoURL;
+
 			}
 
 			public String getId() {
@@ -271,6 +274,13 @@ public class Workshop {
 				this.labURL = labURL;
 			}
 
+            public String getVideoURL() {
+                return videoURL;
+            }
+
+            public void setVideoURL(String videoURL) {
+                this.videoURL = videoURL;
+            }
 		}
 
 	}

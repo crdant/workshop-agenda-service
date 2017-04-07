@@ -160,6 +160,21 @@ public class WorkshopServiceController {
 								}
 							}
 						}
+
+						if (StringUtils.isEmpty(topic.getVideoURL())) {
+							if (!StringUtils.isEmpty(content.getVideoURL())) {
+								try {
+									final URI videoUri = new URI(content.getVideoURL());
+									if ( videoUri.isAbsolute() ) {
+										topic.setVideoURL(content.getVideoURL());
+									} else {
+										topic.setVideoURL(workshop.getContentURL() + "/" + content.getVideoURL());
+									}
+								} catch (  URISyntaxException malUri ) {
+									topic.setVideoURL(workshop.getContentURL() + "/" + content.getVideoURL());
+								}
+							}
+						}
 					}
 				}
 			}
