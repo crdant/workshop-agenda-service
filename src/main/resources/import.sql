@@ -1,3 +1,21 @@
+insert into content (courseID, section, title, description, slideURL, labURL) values ('coming-soon', 'placeholder', 'Coming Soon', '', 'coming-soon.pdf', '');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-push', 'pcf-developer-basic', 'Push to the Cloud', '', 'pivotal-cloud-foundry-developer/pcf-developer-basics/cf-push-to-the-cloud/intro.pdf', 'pivotal-cloud-foundry-developer/pcf-developer-basics/cf-push-to-the-cloud/index.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-org-spaces-roles', 'pcf-developer-basic', 'Orgs, Spaces, Roles', '', 'pivotal-cloud-foundry-developer/pcf-developer-basics/orgs-spaces-roles/orgs-spaces-roles.pdf', 'pivotal-cloud-foundry-developer/pcf-developer-basics/orgs-spaces-roles/index.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-logging-scale-ha', 'pcf-developer-basic', 'Logging, Scale, and High Availability', '', 'pivotal-cloud-foundry-developer/pcf-developer-basics/logging-scale-ha/logging-scale-ha.pdf', 'pivotal-cloud-foundry-developer/pcf-developer-basics/logging-scale-ha/index.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-services', 'pcf-developer-basic', 'Services', '', 'pivotal-cloud-foundry-developer/pcf-developer-basics/services/services.pdf', 'pivotal-cloud-foundry-developer/pcf-developer-basics/services/index.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-buildpacks', 'pcf-developer-basic', 'Buildpacks', '', 'pivotal-cloud-foundry-developer/pcf-developer-basics/buildpack/buildpack.pdf', 'pivotal-cloud-foundry-developer/pcf-developer-basics/buildpack/index.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-manifests', 'pcf-developer-basic', 'Manifests', '', '', 'pivotal-cloud-foundry-developer/pcf-developer-basics/manifest/index.html');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('blue-green-deployments', 'pcf-developer-previous', 'Blue-Green Deployments', '', 'resources/presentations/blue-green.pdf', 'coming-soon.pdf');
+
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-apm', 'pcf-developer-advanced', 'Application Performance Monitoring', '', '', 'pivotal-cloud-foundry-developer/pcf-developer-advanced/application-performance-monitor/index.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-autoscaling', 'pcf-developer-advanced', 'Application Autoscaling', '', '', 'pivotal-cloud-foundry-developer/pcf-developer-advanced/application-auto-scaler/index.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-brokers', 'pcf-developer-advanced', 'Service Brokers', '', 'pivotal-cloud-foundry-developer/pcf-developer-advanced/service-broker/service-broker.pdf', 'pivotal-cloud-foundry-developer/pcf-developer-advanced/service-broker/index.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-route-services', 'pcf-developer-advanced', 'Route Services', '', 'pivotal-cloud-foundry-developer/pcf-developer-advanced/route-service/route-service.pdf', 'pivotal-cloud-foundry-developer/pcf-developer-advanced/route-service/index.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-log-drain', 'pcf-developer-advanced', 'Log Drain', '', 'pivotal-cloud-foundry-developer/pcf-developer-advanced/log-drain/log-drain.pdf', 'pivotal-cloud-foundry-developer/pcf-developer-advanced/log-drain/index.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-log-asg', 'pcf-developer-advanced', 'Application Security Groups', '', 'pivotal-cloud-foundry-developer/pcf-developer-advanced/application-security-group/application-security-group.pdf', 'pivotal-cloud-foundry-developer/pcf-developer-advanced/application-security-group/index.html');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf-developer-cd', 'pcf-developer-advanced', 'Continuous Delivery', '', 'pivotal-cloud-foundry-developer/pcf-developer-advanced/continuous-delivery/continuous-delivery.pdf', '');
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('00-introduction', 'appdev', 'Course Introduction', '','00-introduction.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('02-intro-to-pcf', 'appdev', 'Overview of PCF', '', '02-intro-to-pcf.pdf', '');
@@ -19,7 +37,7 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 
 insert into content (courseID, section, title, description, slideURL, labURL) values ('why-cloud-native-slides', 'cna', 'Why Build Cloud Native Applications', '','63-why-cloud-native-apps.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('cna-culture-changes-slides', 'cna', 'Cloud Native Changes', '', '64-cna-changes.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL) values ('66-continuous-delivery', 'cna', 'Continuous Deliver', '','66-continuous-delivery.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('66-continuous-delivery', 'cna', 'Continuous Delivery with Concourse', '','66-continuous-delivery.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('68-cloud-native-design', 'cna', 'Cloud Native Design', '', '68-cloud-native-design.pdf','');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('70-microservices', 'cna', 'Microservices', '', '70-microservices.pdf', '');
 
@@ -55,6 +73,8 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab4', 'pcf101', 'Lab 4 - Monitoring your Application', '','','labs/pcf101/lab4/lab.html');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab5', 'pcf101', 'Lab 5 - Deploying a .NET Application', '','','labs/pcf101/lab5/lab.html');
 
+insert into content (courseID, section, title, description, slideURL, labURL) values ('pcf101-lab5', 'pcf101', 'Lab 5 - Deploying a .NET Application', '','','labs/pcf101/lab5/lab.html');
+
 insert into content (courseID, section, title, description, slideURL, labURL) values ('a-new-way-of-working', 'transformation', 'A New Way of Working', '', 'a-new-way-of-working.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('an-open-ecosystem-of-services', 'transformation', 'An Open Ecosystem of Services', '', 'an-open-ecosystem-of-services.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('twelve-factor-apps', 'transformation', '12 Factor Applications', '', 'twelve-factor-apps.pdf', '');
@@ -87,6 +107,7 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('60-migration', 'scdf', 'Migration', '', 'scdf/60-Migration.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('data-microservices-pcf', 'scdf', 'Data Microservices', '', 'data-microservices-pcf.pdf', '');
 
+insert into content (courseID, section, title, description, slideURL, labURL) values ('03-pcf-primer', 'pcf-general', 'Pivotal Cloud Foundry Overview', '', 'scdf/03-PCF-Primer.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('monitoring-logging', 'pcf-general', 'Moniting and Logging', '', 'monitoring-logging.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('security-topics', 'pcf-general', 'Security Topics', '', 'security.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('patching-upgrading', 'pcf-general', 'Patching and Upgrading', '', 'patching-upgrading.pdf', '');
@@ -102,3 +123,4 @@ insert into content (courseID, section, title, description, slideURL, labURL) va
 insert into content (courseID, section, title, description, slideURL, labURL) values ('legacy-migration-to-cloud', 'transformation', 'Legacy Migration to the Cloud', '', 'legacy-migration-to-cloud.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('cloud-native-architecture', 'transformation', 'Cloud Native Architecutre', '', 'cloud-native-architecture.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL) values ('new-applications', 'transformation', 'Legacy Migration to the Cloud', '', 'new-applications.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL) values ('enabling-cloud-native', 'transformation', 'Enabling a Cloud Native Organization', '', 'enabling-cloud-native.pdf', '');
