@@ -6,18 +6,18 @@ insert into content (courseID, section, title, description, slideURL, labURL, vi
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('patching-upgrading', 'pcf-general', 'Patching and Upgrading', '', 'patching-upgrading.pdf', '', '');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('security-topics', 'pcf-general', 'Security Topics', '', 'security.pdf', '', '');
 
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('a-new-way-of-working', 'transformation', 'A New Way of Working', '', 'a-new-way-of-working.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('an-open-ecosystem-of-services', 'transformation', 'An Open Ecosystem of Services', '', 'an-open-ecosystem-of-services.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('api-first', 'transformation', 'API First', '', 'api-first.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('becoming-cloud-native', 'transformation', 'Becoming Cloud Native', '', 'becoming-cloud-native.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('cloud-native-architecture', 'transformation', 'Cloud Native Architecutre', '', 'cloud-native-architecture.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('design-for-failure', 'transformation', 'Design for Failure', '', 'design-for-failure.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('enabling-cloud-native', 'transformation', 'Enabling a Cloud Native Organization', '', 'enabling-cloud-native.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('legacy-migration-to-cloud', 'transformation', 'Legacy Migration to the Cloud', '', 'legacy-migration-to-cloud.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('new-applications', 'transformation', 'Legacy Migration to the Cloud', '', 'new-applications.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('twelve-factor-apps', 'transformation', '12 Factor Applications', '', 'twelve-factor-apps.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('twelve-factor-apps-and-beyond', 'transformation', '12 Factor Applications (and Beyond)', '', 'twelve-factor-apps-and-beyond.pdf', '');
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('what-is-cloud-native', 'transformation', 'What is a Cloud Native Application?', '', 'what-is-cloud-native.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('a-new-way-of-working', 'transformation', 'A New Way of Working', '', 'a-new-way-of-working.pdf', '', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('an-open-ecosystem-of-services', 'transformation', 'An Open Ecosystem of Services', '', 'an-open-ecosystem-of-services.pdf', '', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('api-first', 'transformation', 'API First', '', 'api-first.pdf', '', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('becoming-cloud-native', 'transformation', 'Becoming Cloud Native', '', 'becoming-cloud-native.pdf', '', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('cloud-native-architecture', 'transformation', 'Cloud Native Architecutre', '', 'cloud-native-architecture.pdf', '', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('design-for-failure', 'transformation', 'Design for Failure', '', 'design-for-failure.pdf', '', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('enabling-cloud-native', 'transformation', 'Enabling a Cloud Native Organization', '', 'enabling-cloud-native.pdf', '', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('legacy-migration-to-cloud', 'transformation', 'Legacy Migration to the Cloud', '', 'legacy-migration-to-cloud.pdf', '', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('new-applications', 'transformation', 'Legacy Migration to the Cloud', '', 'new-applications.pdf', '', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('twelve-factor-apps', 'transformation', '12 Factor Applications', '', 'twelve-factor-apps.pdf', '', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('twelve-factor-apps-and-beyond', 'transformation', '12 Factor Applications (and Beyond)', '', 'twelve-factor-apps-and-beyond.pdf', '', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('what-is-cloud-native', 'transformation', 'What is a Cloud Native Application?', '', 'what-is-cloud-native.pdf', '', '');
 
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('80a-cs-spring-boot-condensed', 'dellemc', 'Spring Boot', '','80a-cs-spring-boot-condensed.pdf', '', '');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('85a-spring-cloud-condensed', 'dellemc', 'Spring Cloud Services', '','85a-cs-spring-cloud-condensed.pdf', '', '');
@@ -41,7 +41,7 @@ insert into content (courseID, section, title, description, slideURL, labURL, vi
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('sample-application', 'liberty-mutual', 'A Sample Cloud-Native Application', '', '', 'https://forge.lmig.com/wiki/x/sbXRB', '');
 
 
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('00-introduction', 'appdev', 'Course Introduction', '','00-introduction.pdf','', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('00-introduction', 'appdev', 'Course Introduction', '','00-introduction.pdf', '', '');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('02-intro-to-pcf', 'appdev', 'Overview of PCF', '', '02-intro-to-pcf.pdf', '', '');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('04-cli', 'appdev', 'Command Line Interface (CLI) intro', '','04-cli.pdf', 'labs/04-lab-cli.html', '');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('06-org-space-user-role', 'appdev', 'Orgs, Spaces, Users, Roles', '', '06-org-space-user-role.pdf','labs/06-lab-org-space-user-role.html', '');
@@ -89,7 +89,7 @@ insert into content (courseID, section, title, description, slideURL, labURL, vi
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('pcf-developer-org-spaces-roles', 'pcf-developer-basic', 'Orgs, Spaces, Roles', '', 'pivotal-cloud-foundry-developer/pcf-developer-basics/orgs-spaces-roles/orgs-spaces-roles.pdf', 'pivotal-cloud-foundry-developer/pcf-developer-basics/orgs-spaces-roles/index.html', '');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('pcf-developer-push', 'pcf-developer-basic', 'Push to the Cloud', '', 'pivotal-cloud-foundry-developer/pcf-developer-basics/cf-push-to-the-cloud/intro.pdf', 'pivotal-cloud-foundry-developer/pcf-developer-basics/cf-push-to-the-cloud/index.html', '');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('pcf-developer-services', 'pcf-developer-basic', 'Services', '', 'pivotal-cloud-foundry-developer/pcf-developer-basics/services/services.pdf', 'pivotal-cloud-foundry-developer/pcf-developer-basics/services/index.html', '');
-insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('blue-green-deployments', 'pcf-developer-previous', 'Blue-Green Deployments', '', 'resources/presentations/blue-green.pdf', 'coming-soon.pdf', '');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('blue-green-deployments', 'pcf-developer-previous', 'Blue-Green Deployments', '', 'resources/presentations/blue-green.pdf', 'blue-green/index.html', '');
 
 
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('pcf101-session1-cne', 'pcf101', 'Welcome to the Cloud Native Enterprise', '','Session_1_Cloud_Native_Enterprise.pdf','', '');
