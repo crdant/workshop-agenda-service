@@ -38,6 +38,10 @@ insert into content (courseID, section, title, description, slideURL, labURL, vi
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('design-for-failure-with-lab', 'liberty-mutual', 'Design for Failure', '', 'design-for-failure.pdf', 'coming-soon.pdf', '');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('ets-labs-video', 'liberty-mutual', 'Build the Pipeline Provisioner Product in ETS', '', '', '', 'https://www.dropbox.com/s/vl46jdrqi32aqs6/09-21-16%20Pivotal%20Video%202%20Rev.4.mp4?dl=0');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('gs-labs-video', 'liberty-mutual', 'Bringing a New Product to Market in Global Speciality', '', '', '', 'https://www.dropbox.com/s/ygjx2wfwv5cj63n/09-21-16%20Pivotal%20Video%201%20Rev.2.mp4?dl=0');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('moto-pairing-video', 'liberty-mutual', '"I Buy Motorcycle" Pairing Experience', '', '', '', 'https://workshop-videos.cfapps.io/moto-experiencepairing.mp4');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('moto-product-video', 'liberty-mutual', 'Lean "I Buy Motorcycle" Lean Product Development', '', '', '', 'https://workshop-videos.cfapps.io/moto-experiencelean-product.mp4');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('moto-team-video', 'liberty-mutual', 'The Balanced Team for "I Buy Motorcycle"', '', '', '', 'https://workshop-videos.cfapps.io/moto-experiencebalanced-team.mp4');
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('moto-path-video', 'liberty-mutual', '"I Buy Motorcycle" Path to Production', '', '', '', 'https://workshop-videos.cfapps.io/moto-experiencepath-to-production.mp4');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('sample-application', 'liberty-mutual', 'A Sample Cloud-Native Application', '', '', 'https://forge.lmig.com/wiki/x/sbXRB', '');
 
 
