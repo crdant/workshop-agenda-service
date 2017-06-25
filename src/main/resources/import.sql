@@ -6,6 +6,8 @@ insert into content (courseID, section, title, description, slideURL, labURL, vi
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('patching-upgrading', 'pcf-general', 'Patching and Upgrading', '', 'patching-upgrading.pdf', '', '');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('security-topics', 'pcf-general', 'Security Topics', '', 'security.pdf', '', '');
 
+insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('the-platform-for-a-new-way-of-working', 'pcf-general', 'The Platform for a New Way of Working', '', 'the-platform-for-a-new-way-of-working.pdf', '', '');
+
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('a-new-way-of-working', 'transformation', 'A New Way of Working', '', 'a-new-way-of-working.pdf', '', '');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('an-open-ecosystem-of-services', 'transformation', 'An Open Ecosystem of Services', '', 'an-open-ecosystem-of-services.pdf', '', '');
 insert into content (courseID, section, title, description, slideURL, labURL, videoURL) values ('api-first', 'transformation', 'API First', '', 'api-first.pdf', '', '');
